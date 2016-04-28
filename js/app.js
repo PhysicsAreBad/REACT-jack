@@ -63,8 +63,9 @@ function update() {
 }
 function togglesw() {
   console.log('cheating prevention enabled');
+  console.log('end game');
   alert('To prevent cheating, we will show your score after you press ok. If you have a world record, take a screenshot! There will be NO way to get it back after you press ok!');
-  alert('Your score was ' + ms + 'ms! Good Job! Thanks for playing! To play again press the "OK" button.');
+  alert('Your score was ' + ms + 'ms! Good Job! Thanks for playing! To play again press the "OK" button or if ypu are on Safari click the "Close" button.');
   location.reload();
 }
 function toggle() {
