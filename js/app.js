@@ -79,7 +79,7 @@ $(function () {
       $('.SendEmail').click(function (event) {
         var email = '';
         var subject = 'REACT! game';
-        var emailBody = 'I got ' + s + ' and ' + ms + 'on the REACT game. Play at http://thekiller65yt.github.io/REACT-jack/';
+        var emailBody = 'I played the REACT game. Play at http://thekiller65yt.github.io/REACT-jack/';
         document.location = "mailto:"+email+"?subject="+subject+"&body="+emailBody;
       });
     });
