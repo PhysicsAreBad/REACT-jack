@@ -66,7 +66,7 @@ function togglesw() {
   console.log('end game');
   alert('To prevent cheating, we will show your score after you press ok. If you have a world record, take a screenshot! There will be NO way to get it back after you press ok!');
   alert('Your score was ' + ms + 'ms! Good Job! Thanks for playing! To play again press the "OK" button or if you are on Safari click the "Close" button and click the "stop" button.');
-  location.reload;
+  location.reload();
 }
 function toggle() {
   if (!play) {
